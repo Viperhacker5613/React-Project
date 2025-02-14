@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="/public/build/tailwind.css">
+    <title>Peronsal Portfolio</title>
+</head>
+<body class="bg-zinc-950">
+    <div class="md:grid md:grid-cols-12 md:grid-flow-dense md:h-full xl:container xl:mx-auto 2xl:max-[1280px]:">
+
+
+    <!-- Navigation -->
+     <nav class="flex items-center justify-between bg-zinc-900 text-white m-6 mb-0  p-3.5 rounded-2xl md:mb-6 md:col-span-12">
+        <a href="#" class="text-gray-300">Viper
+        <span class="text-white font-semibold">Hacker</span></a>
+        <div class="text-xl">
+            <i class='bx bx-menu cursor-pointer'></i>
+        </div>
+     </nav>
+     <!-- Porfile section -->
+      <div class="p-6 wb-2 md:mb-0 md:p-0 md:pl-6 md:col-span-4">
+        <img class="w-full h-full object-cover rounded-3xl" src="/src/assets/profile.jpg" alt="profile">
+      </div>
+
+
+      <!-- Info section -->
+       <div class="flex flex-col gap-y-8 px-6 mb-8 md:col-span-5 md:justify-between md:mb-0 lg:col-span-3">
+        <div class="flex gap-x-4 text-white md:flex-col md:gap-y-6">
+            <div class="flex items-center justify-between bg-zinc-900 p-3.5 flex-1 rounded-2xl">
+                <p class="text-sm text-gray-300">Name:</p>
+                <p>Sarthak Khade</p>
+            </div>
+            <div class="flex items-center justify-between bg-zinc-900 p-3.5 flex-1 rounded-2xl">
+                <p class="text-sm text-gray-300">Based in:</p>
+                <p>Japan</p>
+            </div>
+        </div>
+        <div class="flex items-center justify-around text-4xl text-white bg-zinc-900 p-2 rounded-2xl">
+            <span><i class='bx bxl-instagram cursor-pointer hover:text-[#E4405F] transition-all duration-300'></i></span>
+            <span><i class='bx bxl-github cursor-pointer hover:text-[#3333] transition-all duration-300'></i></span>
+            <span><i class='bx bxl-youtube cursor-pointer hover:text-[#Cd201f] transition-all duration-300'></i></span>
+            <span><i class='bx bxl-dribbble cursor-pointer hover:text-[#ea4c89] transition-all duration-300'></i></span>
+            <span><i class='bx bxl-twitter cursor-pointer hover:text-[#1da1f2] transition-all duration-300'></i></span>
+        </div>
+       </div>
+
+
+       <!-- Hero section -->
+        <div class="flex flex-col gap-y-4 bg-zinc-900 mx-6 p-3.5 rounded-2xl mt-6 mb-8 md:col-span-12 md:flex-row md:gap-x-8 md:justify-between md:items-center lg:col-span-6 lg:flex-col lg:items-stretch">
+            <p class="text-white text-xl font-bold text-center leading-10 lg:text-3xl">Bringing Your Ideas to life  Through Fontend Design</p>
+            <button class="bg-sky-600 p-2 text-white font-semibold rounded-xl cursor-pointer hover:bg-sky-500 transition-all duration-300 md:flex-1">Hire Now</button>
+        </div>
+
+
+        <!-- Stats section -->
+         <div class="m-6 mb-8 flex gap-x-2 md:col-span-3 md:flex-col md:gap-y-4 md:pr-6 md:m-0 lg:col-span-6 lg:flex-row lg:gap-x-4 lg:ml-0 lg:p-8">
+            <div class="flex flex-col item-center justify-center flex-1 p-4 text-center bg-emerald-500 text-white rounded-2xl">
+                <span class="text-4xl font-bold mb-2">2+</span>
+                <span class="text-sm">Years Experience</span>
+            </div>
+            <div class="flex flex-col item-center justify-center flex-1 p-4 text-center bg-amber-500 text-white rounded-2xl">
+                <span class="text-4xl font-bold mb-2">54+</span>
+                <span class="text-sm">Projects</span>
+            </div>
+            <div class="flex flex-col item-center justify-center flex-1 p-4 text-center bg-red-500 text-white rounded-2xl">
+                <span class="text-4xl font-bold mb-2">40+</span>
+                <span class="text-sm">Clients</span>
+            </div>
+         </div>
+
+
+         <!-- Porfolio section -->
+          <div class="flex flex-col gap-y-6 mx-6 mb-8 bg-zinc-900 p-3.5 rounded-2xl md:col-span-12 lg:col-span-6 lg:col-start-7 lg:row-start-2 lg:mb-0">
+            <div class="flex items-center justify-between">
+                <h3 class="text-xl font-semibold text-white">My Portfolio</h3>
+                <a href="#" class="text-gray-300 text-xl hover:text-white transition-all duration-300">See All</a>
+            </div>
+
+            <div class="grid grid-cols-2 gap-4 md:grid-cols-4 lg:h-full">
+                <div class="group relative lg:h-full">
+                    <img class="rounded-2xl object-cover opacity-100 transition-opacity duration-300 group-hover:opacity-40 h-full" src="/src/assets/1.png" alt="first">
+                    <a href="#" class="absolute inset-0 items-center justify-center font-semibold text-white hidden group-hover:flex">See Project</a>
+                </div>
+                <div class="group relative lg:h-full">
+                    <img class="rounded-2xl object-cover opacity-100 transition-opacity duration-300 group-hover:opacity-40 h-full"
+                        src="/src/assets/2.png" alt="second">
+                    <a href="#"
+                        class="absolute inset-0 items-center justify-center font-semibold text-white hidden group-hover:flex">See
+                        Project</a>
+                </div>
+                <div class="group relative lg:h-full">
+                    <img class="rounded-2xl object-cover opacity-100 transition-opacity duration-300 group-hover:opacity-40 h-full"
+                        src="/src/assets/3.png" alt="third">
+                    <a href="#"
+                        class="absolute inset-0 items-center justify-center font-semibold text-white hidden group-hover:flex">See
+                        Project</a>
+                </div>
+                <div class="group relative lg:h-full">
+                    <img class="rounded-2xl object-cover opacity-100 transition-opacity duration-300 group-hover:opacity-40 h-full"
+                        src="/src/assets/4.png" alt="fourth">
+                    <a href="#"
+                        class="absolute inset-0 items-center justify-center font-semibold text-white hidden group-hover:flex">See
+                        Project</a>
+                </div>
+            </div>
+          </div>
+
+
+        <!-- about section -->
+        <div class="flex flex-col gap-y-4 bg-zinc-900 p-3.5 rounded-2xl mx-6 mb-8 md:col-span-12 lg:mb-4">
+            <div class="flex items-center justify-between">
+                <h3 class="text-xl font-semibold text-white">About</h3>
+                <a href="#" class="text-xl text-gray-300 hover:text-white transition-all duration-300">Resume</a>
+            </div>
+            <p class="text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique necessitatibus hic dolor ut, eligendi illo ratione optio vero minima, maiores saepe corporis recusandae. Omnis qui inventore quis nemo dolorum consequatur?</p>
+        </div>
+    </div>
+</body>
+</html>
